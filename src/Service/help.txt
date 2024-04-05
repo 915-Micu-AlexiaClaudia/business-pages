@@ -1,0 +1,1 @@
+This is a helper module with other functionalities that do not fit in the direct scope of our app. Think tools.

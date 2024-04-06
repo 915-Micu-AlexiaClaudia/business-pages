@@ -14,6 +14,8 @@ Learn here: [https://learngitbranching.js.org/](https://learngitbranching.js.org
 
 **Everybody should create a test branch on the repository, create a file, commit and merge. You should do this in order to familiarise yourselves with how we'll work.**
 
+Remember to 'git pull' the repository everytime before working on it. That way, you get all the files that other people pushed.
+
 # 2. Documentation
 
 ## Typing conventions

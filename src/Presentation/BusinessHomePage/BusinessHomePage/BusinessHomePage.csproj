@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="catOne.png" />
+    <None Remove="catTwo.png" />
+    <None Remove="LogoNavBar.png" />
+    <None Remove="search-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="catOne.png" />
+    <Resource Include="catTwo.png" />
+    <Resource Include="LogoNavBar.png" />
+    <Resource Include="search-icon.png" />
+  </ItemGroup>
+
 </Project>

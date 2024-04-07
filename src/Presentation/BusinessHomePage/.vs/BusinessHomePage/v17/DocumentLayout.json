@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bianc\\OneDrive\\Desktop\\Stuff\\Semester4\\ISS\\business-pages\\src\\Presentation\\BusinessHomePage\\BusinessHomePage\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BusinessHomePage\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bianc\\OneDrive\\Desktop\\Stuff\\Semester4\\ISS\\business-pages\\src\\Presentation\\BusinessHomePage\\BusinessHomePage\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BusinessHomePage\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T14:00:10.927Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -29,20 +42,7 @@
               "ToolTip": "C:\\Users\\bianc\\OneDrive\\Desktop\\Stuff\\Semester4\\ISS\\business-pages\\src\\Presentation\\BusinessHomePage\\BusinessHomePage\\MainWindow.xaml",
               "RelativeToolTip": "BusinessHomePage\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-07T14:00:11.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bianc\\OneDrive\\Desktop\\Stuff\\Semester4\\ISS\\business-pages\\src\\Presentation\\BusinessHomePage\\BusinessHomePage\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BusinessHomePage\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\bianc\\OneDrive\\Desktop\\Stuff\\Semester4\\ISS\\business-pages\\src\\Presentation\\BusinessHomePage\\BusinessHomePage\\MainWindow.xaml.cs",
-              "RelativeToolTip": "BusinessHomePage\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:00:10.927Z",
+              "WhenOpened": "2024-04-07T14:24:49.439Z",
               "EditorCaption": ""
             }
           ]

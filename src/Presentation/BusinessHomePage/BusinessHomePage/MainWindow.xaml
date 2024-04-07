@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BusinessHomePage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="550" Width="900" ResizeMode="NoResize">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" MinHeight="49"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
 
-    </Grid>
+    <Rectangle Height="42" Stroke="Black" VerticalAlignment="Top" Fill="Black" Margin="-4,0,0,0"/>
+    <TextBox HorizontalAlignment="Left" Margin="435,8,0,0" TextWrapping="Wrap" Text="search" VerticalAlignment="Top" Width="147" FontFamily="Candara Light" FontSize="14" TextAlignment="Center" Height="20">
+      <TextBox.Effect>
+        <DropShadowEffect/>
+      </TextBox.Effect>
+      <TextBox.Resources>
+        <Style TargetType="{x:Type Border}">
+          <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+      </TextBox.Resources>
+    </TextBox>
+    <Image HorizontalAlignment="Left" Height="33" Margin="26,1,0,0" VerticalAlignment="Top" Width="66" Source="/LogoNavBar.png"/>
+    <Image HorizontalAlignment="Left" Height="13" Margin="593,12,0,0" VerticalAlignment="Top" Width="12" Source="/search-icon.png" RenderTransformOrigin="0.51,0.491">
+      <Image.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Image.RenderTransform>
+    </Image>
+    <Menu Margin="750,10,110,14">
+      <MenuItem Header="&#xD;&#xA;" Width="40" Height="28" FontFamily="Candara Light">
+        <MenuItem.Background>
+          <ImageBrush ImageSource="/catOne.png"/>
+        </MenuItem.Background>
+        <MenuItem Header="See Managed businesses"/>
+        <MenuItem Header="Log Out"/>
+      </MenuItem>
+    </Menu>
+    <Rectangle Height="42" Stroke="Black" VerticalAlignment="Top" Fill="Black" Margin="-2,78,-2,0" Grid.Row="1"/>
+    <Image HorizontalAlignment="Left" Height="33" Margin="26,83,0,0" VerticalAlignment="Top" Width="66" Source="/LogoNavBar.png" Grid.Row="1"/>
+    <TextBox HorizontalAlignment="Left" Margin="435,89,0,0" TextWrapping="Wrap" Text="search" VerticalAlignment="Top" Width="147" FontFamily="Candara Light" FontSize="14" TextAlignment="Center" Height="20" Grid.Row="1">
+      <TextBox.Resources>
+        <Style TargetType="{x:Type Border}">
+          <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+      </TextBox.Resources>
+      <TextBox.Effect>
+        <DropShadowEffect/>
+      </TextBox.Effect>
+    </TextBox>
+    <Image HorizontalAlignment="Left" Height="13" Margin="593,93,0,0" VerticalAlignment="Top" Width="12" Source="/search-icon.png" RenderTransformOrigin="0.51,0.491" Grid.Row="1">
+      <Image.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="0"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Image.RenderTransform>
+    </Image>
+    <Button Content="Log In" HorizontalAlignment="Left" Margin="806,89,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89"/>
+  </Grid>
 </Window>
